@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(31, 30, 34);
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.head-div{
+    background: rgb(31, 30, 34);
+}
+.head{
+    color: white;
+    font-family: "Chivo Mono", monospace;
+    font-size: 36px;
+    padding: 1%;
+}
+
+.button-1 button{
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+
+.msg{
+    background-color: #2e3033;
+    padding: 15px;
+    color: white;
+    max-width: fit-content;
+}
+
+.messages-view{
+    width: 80%;
+    margin: 0 10%;
+    height: calc(100% - 500px);
+}
+
+.textbox{
+    background-color: rgb(31, 30, 34);
+    width: 100%;
+    padding: 10px 10% 10px 10%;
+}
+
+.textbox textarea{
+    background-color: #2e3033;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    resize: none;
+    outline: none;
+}
+
+.textbox textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.textbox button:hover{
+ background: #555656;
+ border: 1px solid #fff;
+}
